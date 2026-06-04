@@ -1,0 +1,36 @@
+SELECT ?item (COUNT(?wiki) AS ?nLang) WHERE { 
+
+  
+
+  VALUES ?wiki { 
+
+    <https://it.wikipedia.org/> 
+
+    <https://eml.wikipedia.org/> 
+
+    <https://vec.wikipedia.org/> 
+
+    <https://lmo.wikipedia.org/> 
+
+    <https://scn.wikipedia.org/> 
+
+    <https://co.wikipedia.org/> 
+
+    <https://sc.wikipedia.org/> 
+
+    <https://nap.wikipedia.org/> 
+
+    <https://pms.wikipedia.org/> 
+
+  } 
+ 
+
+  ?article schema:about ?item ; 
+
+           schema:isPartOf ?wiki . 
+} 
+
+
+GROUP BY ?item 
+
+HAVING (?nLang >= 4) 
