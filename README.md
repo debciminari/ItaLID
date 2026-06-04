@@ -71,10 +71,10 @@ We evaluate model robustness on out-of-domain data, specifically poetry, to asse
 ## 6. References
 
 - Joulin et al. (2017) — fastText
-- - Orlando et al. (2024) — Minerva-7B-Instruct
+- Orlando et al. (2024) — Minerva-7B-Instruct
 
 ---
 
 ## 7. License
 
-Add license information if applicable.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0).
