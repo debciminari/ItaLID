@@ -15,7 +15,7 @@ We evaluate three families of models:
 - **Multinomial Naïve Bayes (MNB)**
   - Word-level n-grams;
   - Character n-grams (1–6);
-  - Feature ablation and combination studies.
+  - Feature ablation studies.
 
 - **fastText**
   - Efficient embedding-based classifier;
@@ -64,7 +64,8 @@ We evaluate model robustness on out-of-domain data, specifically poetry, to asse
     - `hard`: structured prompting
 
 - **out-of-domain/**
-  - Script for evaluation on poetry (out-of-domain setting)
+  - Script for evaluation on poetry (out-of-domain setting);
+  - corpus and metadata.
 
 ---
 
